@@ -19,11 +19,11 @@ const currentYear = new Date().getFullYear();
 
 <style scoped>
 .app {
-  @apply flex flex-col font-sarabun h-screen w-screen;
+  @apply flex flex-col font-sarabun;
 }
 
 .copyright {
-  @apply flex justify-center items-center p-2 bottom-0;
+  @apply flex justify-center items-center p-2;
   @apply bg-white text-sm text-gray-500;
 }
 </style>

@@ -1,9 +1,10 @@
 <template>
   <div class="home-style">
     <PresentationBanner />
-    <SummaryAboutMe />
+    <!-- <SummaryAboutMe /> -->
+     <AreasOfExpertise />
+    <!-- <TechnicalSkillsList /> -->
     <MainProjects />
-    <TechnicalSkillsList />
     <Highlights />
     <Testimonials />
     <ContactSection />
@@ -12,7 +13,9 @@
 
 <script setup>
 import PresentationBanner from '../components/PresentationBanner.vue'
-import SummaryAboutMe from '../components/SummaryAboutMe.vue'
+// import SummaryAboutMe from '../components/SummaryAboutMe.vue'
+import AreasOfExpertise from '../components/AreasOfExpertise.vue'
+// import TechnicalSkillsList from '../components/TechnicalSkillsList.vue'
 
 </script>
 
