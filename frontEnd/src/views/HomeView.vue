@@ -1,15 +1,23 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="home-style">
+    <PresentationBanner />
+    <SummaryAboutMe />
+    <MainProjects />
+    <TechnicalSkillsList />
+    <Highlights />
+    <Testimonials />
+    <ContactSection />
   </div>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+<script setup>
+import PresentationBanner from '../components/PresentationBanner.vue'
+import SummaryAboutMe from '../components/SummaryAboutMe.vue'
+
+</script>
+
+<style scoped>
+.home-style {
+  @apply h-full w-full flex flex-col
 }
 </style>

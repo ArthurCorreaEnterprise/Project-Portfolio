@@ -11,7 +11,7 @@
             <RouterLink to="/contact" active-class="active">Contact</RouterLink>
         </div>
         <div>
-            <button type="button">login</button>
+            <button type="button" class="color-gradient-teal-indigo hoverColor-gradient-indigo-fuchsia">login</button>
         </div>
     </nav>
 </template>
@@ -31,10 +31,14 @@ span {
     @apply from-blue-500 to-violet-500;
 }
 
-button {
-    @apply border py-2 px-6 rounded-lg capitalize font-bold text-sm bg-gradient-to-r;
-    @apply  text-white from-teal-500 to-indigo-500;
-    @apply hover:from-indigo-500 hover:to-fuchsia-500;
+button.color-gradient-teal-indigo {
+  @apply  bg-gradient-to-r;
+  @apply  text-white from-teal-500 to-indigo-500;
+}
+
+button.hoverColor-gradient-indigo-fuchsia {
+  @apply bg-gradient-to-r;
+  @apply hover:from-indigo-500 hover:to-fuchsia-500;
 }
 
 .navbar-style {
