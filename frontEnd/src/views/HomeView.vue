@@ -2,7 +2,7 @@
   <div class="home-style">
     <PresentationBanner />
     <!-- <SummaryAboutMe /> -->
-     <AreasOfExpertise />
+     <!-- <AreasOfExpertise /> -->
     <!-- <TechnicalSkillsList /> -->
     <MainProjects />
     <Highlights />
@@ -14,7 +14,7 @@
 <script setup>
 import PresentationBanner from '../components/PresentationBanner.vue'
 // import SummaryAboutMe from '../components/SummaryAboutMe.vue'
-import AreasOfExpertise from '../components/AreasOfExpertise.vue'
+// import AreasOfExpertise from '../components/AreasOfExpertise.vue'
 // import TechnicalSkillsList from '../components/TechnicalSkillsList.vue'
 
 </script>

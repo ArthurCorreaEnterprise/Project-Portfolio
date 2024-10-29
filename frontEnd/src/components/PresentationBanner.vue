@@ -41,7 +41,7 @@
 
 <style scoped>
 .banner {
-    @apply flex w-full min-h-96 bg-gradient-to-b delay-700;
+    @apply flex w-full h-96 bg-gradient-to-b delay-700;
     @apply bg-white;
 }
 
